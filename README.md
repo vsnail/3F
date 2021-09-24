@@ -1,20 +1,20 @@
-## 3F旅遊專案
+# 3F旅遊專案
 
 > 功能介紹
 
-![投影片24](C:\Users\Vivian3934\OneDrive - Chinese Culture University\0-找工作\10.專案作品\APP_PPT\投影片24.PNG)
+![Imgur](https://imgur.com/lgaJurW.png)
 
-![投影片25](C:\Users\Vivian3934\OneDrive - Chinese Culture University\0-找工作\10.專案作品\APP_PPT\投影片25.PNG)
+![投影片25](https://imgur.com/ZyQFY8B.png)
 
-![投影片26](C:\Users\Vivian3934\OneDrive - Chinese Culture University\0-找工作\10.專案作品\APP_PPT\投影片26.PNG)
+![投影片26](https://imgur.com/PB2RCC3.png)
 
-![投影片27](C:\Users\Vivian3934\OneDrive - Chinese Culture University\0-找工作\10.專案作品\APP_PPT\投影片27.PNG)
+![投影片27](https://imgur.com/h25HmQR.png)
 
-![投影片28](C:\Users\Vivian3934\OneDrive - Chinese Culture University\0-找工作\10.專案作品\APP_PPT\投影片28.PNG)
+![投影片28](https://imgur.com/vKE3Ipb.png)
 
-![投影片29](C:\Users\Vivian3934\OneDrive - Chinese Culture University\0-找工作\10.專案作品\APP_PPT\投影片29.PNG)
+![投影片29](https://imgur.com/S3tGps0.png)
 
-![投影片30](C:\Users\Vivian3934\OneDrive - Chinese Culture University\0-找工作\10.專案作品\APP_PPT\投影片30.PNG)
+![投影片30](https://imgur.com/wuXyEbZ.png)
 
 
 
@@ -32,9 +32,8 @@
 
 > 商用發展方向
 
-​	1.活動推送增加抽獎功能(讓廠商推廣活動) ex.抽展覽門票
+1) 活動推送增加抽獎功能(讓廠商推廣活動) ex.抽展覽門票
 
-------
 
 
 
