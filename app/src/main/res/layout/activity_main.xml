@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@mipmap/splash">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="專案"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:layout_marginTop="100dp"
+        android:gravity="center"></TextView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="90dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp">
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:text="@string/login"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:background="@drawable/shape_login_btn"/>
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:text="@string/register"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:background="@drawable/shape_register_btn"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>

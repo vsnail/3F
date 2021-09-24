@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".fragment.MyFragment">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true">
+        <!-- TODO: Update blank fragment layout -->
+        <LinearLayout
+            android:id="@+id/my_ll"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:background="@drawable/shape_my_info"
+            android:gravity="bottom"
+            android:orientation="vertical"
+            android:paddingLeft="25dp"
+            android:paddingTop="16dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="16dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:alpha="1"
+                android:scaleType="centerCrop"
+                app:srcCompat="@android:drawable/sym_def_app_icon" />
+
+            <TextView
+                android:id="@+id/my_userid"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:text="用戶名稱"
+                android:textColor="#404040"
+                android:textSize="15sp" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/myaward"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="24dp"
+            android:text="抽卡"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:background="@drawable/shape_myaward_btn"/>
+        <Button
+            android:id="@+id/add_myplan"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="130dp"
+            android:layout_marginTop="24dp"
+            android:text="新增&#10;行程"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:background="@drawable/shape_myaward_btn"/>
+    </RelativeLayout>
+
+
+    <com.woxthebox.draglistview.BoardView
+        android:id="@+id/board_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:boardEdges="0dp"
+        app:columnSpacing="0dp" />
+
+
+</LinearLayout>
